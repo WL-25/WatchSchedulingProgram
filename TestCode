@@ -6,67 +6,169 @@ public class MyClass {
       int c=110;
       int d=105;
       int e=100;
+      int f=95;
+      int g=90;
+      int h=85;
+      int pwr = 3;
       //adjusting of scores
-      double a1 = Math.pow(a, 10);
-      double b1 = Math.pow(b, 10);
-      double c1 = Math.pow(c, 10);
-      double d1 = Math.pow(d, 10);
-      double e1 = Math.pow(e, 10);
-      double t = a1+b1+c1+d1+e1;
+      double a1 = Math.pow(a, pwr);
+      double b1 = Math.pow(b, pwr);
+      double c1 = Math.pow(c, pwr);
+      double d1 = Math.pow(d, pwr);
+      double e1 = Math.pow(e, pwr);
+      double f1 = Math.pow(f, pwr);
+      double g1 = Math.pow(g, pwr);
+      double h1 = Math.pow(h, pwr);
+      double t = a1+b1+c1+d1+e1+f1+g1+h1;
       //conversion to a decimal percent chance
       double a2 = a1 / t;
       double b2 = b1 / t;
       double c2 = c1 / t;
       double d2 = d1 / t;
       double e2 = e1 / t;
+      double f2 = f1 / t;
+      double g2 = g1 / t;
+      double h2 = h1 / t;
       double r = Math.random();
+      double r1 = Math.random();
       boolean v = true;
+      System.out.println("A= "+ a + "  B= " + b + "  C= " + c + "  D= " + d + "  E =" + e + "  F= " + f + "  G= " + g + "  H =" + h);
       //program runs until any score goes below 10
       while(v){
           r = Math.random();
+          r1 = Math.random();
           //the println command is in every if statement so it only prints out when a score changes
           //because the if statements could be cycled through more than once before a score changes
           if(r<a2)
           {
               a = a-5;
-              System.out.println("A= "+ a + "  B= " + b + "  C= " + c + "  D= " + d + "  E = " + e);
+              //50% chance the person drafted won't be able to stand the watch and thus the alogorithm continues
+              if(r<r1)
+              {
+                  a = a+5;
+              }
+              else
+              {
+                  System.out.println("A= "+ a + "  B= " + b + "  C= " + c + "  D= " + d + "  E =" + e + "  F= " + f + "  G= " + g + "  H =" + h);
+              }
           }
+          //New random number
+          r = Math.random();
           if(r<b2)
           {
               b = b-5;
-              System.out.println("A= "+ a + "  B= " + b + "  C= " + c + "  D= " + d + "  E = " + e);
-            }
+             if(r<r1)
+              {
+                  b = b+5;
+              }
+              else
+              {
+                  System.out.println("A= "+ a + "  B= " + b + "  C= " + c + "  D= " + d + "  E =" + e + "  F= " + f + "  G= " + g + "  H =" + h);
+              }
+          }
+          r = Math.random();
           if(r<c2)
           {
               c = c-5;
-              System.out.println("A= "+ a + "  B= " + b + "  C= " + c + "  D= " + d + "  E = " + e);
+              if(r<r1)
+              {
+                  c = c+5;
+              }
+              else
+              {
+                  System.out.println("A= "+ a + "  B= " + b + "  C= " + c + "  D= " + d + "  E =" + e + "  F= " + f + "  G= " + g + "  H =" + h);
+              }
           }
+          r = Math.random();
           if(r<d2)
           {
               d = d-5;
-              System.out.println("A= "+ a + "  B= " + b + "  C= " + c + "  D= " + d + "  E = " + e);
+              if(r<r1)
+              {
+                  d = d+5;
+              }
+              else
+              {
+                  System.out.println("A= "+ a + "  B= " + b + "  C= " + c + "  D= " + d + "  E =" + e + "  F= " + f + "  G= " + g + "  H =" + h);
+              }
           }
-          if(r<e2)
+          r = Math.random();
+           if(r<e2)
           {
               e = e-5;
-              System.out.println("A= "+ a + "  B= " + b + "  C= " + c + "  D= " + d + "  E = " + e);
+              if(r<r1)
+              {
+                  e = e+5;
+              }
+              else
+              {
+                  System.out.println("A= "+ a + "  B= " + b + "  C= " + c + "  D= " + d + "  E =" + e + "  F= " + f + "  G= " + g + "  H =" + h);
+              }
+          }
+          r = Math.random();
+          if(r<f2)
+          {
+              f = f-5;
+              if(r<r1)
+              {
+                  f = f+5;
+              }
+              else
+              {
+                  System.out.println("A= "+ a + "  B= " + b + "  C= " + c + "  D= " + d + "  E =" + e + "  F= " + f + "  G= " + g + "  H =" + h);
+              }
+          }
+          r = Math.random();
+          if(r<g2)
+          {
+              g = g-5;
+              if(r<r1)
+              {
+                  g = g+5;
+              }
+              else
+              {
+                  System.out.println("A= "+ a + "  B= " + b + "  C= " + c + "  D= " + d + "  E =" + e + "  F= " + f + "  G= " + g + "  H =" + h);
+              }
+          }
+          r = Math.random();
+          if(r<h2)
+          {
+              h = h-5;
+              if(r<r1)
+              {
+                  h = h+5;
+              }
+              else
+              {
+                  System.out.println("A= "+ a + "  B= " + b + "  C= " + c + "  D= " + d + "  E =" + e + "  F= " + f + "  G= " + g + "  H =" + h);
+              }
           }
           //Updates the adjusted scores based on the most recent results
-          a1 = Math.pow(a, 10);
-          b1 = Math.pow(b, 10);
-          c1 = Math.pow(c, 10);
-          d1 = Math.pow(d, 10);
-          e1 = Math.pow(e, 10);
-          t = a1+b1+c1+d1+e1;
+          a1 = Math.pow(a, pwr);
+          b1 = Math.pow(b, pwr);
+          c1 = Math.pow(c, pwr);
+          d1 = Math.pow(d, pwr);
+          e1 = Math.pow(e, pwr);
+          f1 = Math.pow(f, pwr);
+          g1 = Math.pow(g, pwr);
+          h1 = Math.pow(h, pwr);
+          t = a1+b1+c1+d1+e1+f1+g1+h1;
           a2 = a1 / t;
           b2 = b1 / t;
           c2 = c1 / t;
           d2 = d1 / t;
           e2 = e1 / t;
+          f2 = f1 / t;
+          g2 = g1 / t;
+          h2 = h1 / t;
           //stops the program so scores don't go negative
           if(a < 10 || b < 10 || c < 10){
               v = false;
           }
-       }
+          
+      }
+        
+        
     }
 }
