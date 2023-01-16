@@ -9,7 +9,7 @@ public class MyClass {
       int f=95;
       int g=90;
       int h=85;
-      int pwr = 3;
+      int pwr = 8;
       //adjusting of scores
       double a1 = Math.pow(a, pwr);
       double b1 = Math.pow(b, pwr);
@@ -32,7 +32,7 @@ public class MyClass {
       double r = Math.random();
       double r1 = Math.random();
       boolean v = true;
-      System.out.println("A= "+ a + "  B= " + b + "  C= " + c + "  D= " + d + "  E =" + e + "  F= " + f + "  G= " + g + "  H =" + h);
+      System.out.println("Charlotte= "+ a + "  Matt= " + b + "  Dylan= " + c + "  Ella= " + d + "  Nick=" + e + "  James=" + f + "   Keegan=" + g + "  Amanda=" + h);
       //program runs until any score goes below 10
       while(v){
           r = Math.random();
@@ -49,7 +49,7 @@ public class MyClass {
               }
               else
               {
-                  System.out.println("A= "+ a + "  B= " + b + "  C= " + c + "  D= " + d + "  E =" + e + "  F= " + f + "  G= " + g + "  H =" + h);
+                  System.out.println("Charlotte= "+ a + "  Matt= " + b + "  Dylan= " + c + "  Ella= " + d + "  Nick=" + e + "  James=" + f + "   Keegan=" + g + "  Amanda=" + h);
               }
           }
           //New random number
@@ -63,7 +63,7 @@ public class MyClass {
               }
               else
               {
-                  System.out.println("A= "+ a + "  B= " + b + "  C= " + c + "  D= " + d + "  E =" + e + "  F= " + f + "  G= " + g + "  H =" + h);
+                  System.out.println("Charlotte= "+ a + "  Matt= " + b + "  Dylan= " + c + "  Ella= " + d + "  Nick=" + e + "  James=" + f + "   Keegan=" + g + "  Amanda=" + h);
               }
           }
           r = Math.random();
@@ -76,7 +76,7 @@ public class MyClass {
               }
               else
               {
-                  System.out.println("A= "+ a + "  B= " + b + "  C= " + c + "  D= " + d + "  E =" + e + "  F= " + f + "  G= " + g + "  H =" + h);
+                  System.out.println("Charlotte= "+ a + "  Matt= " + b + "  Dylan= " + c + "  Ella= " + d + "  Nick=" + e + "  James=" + f + "   Keegan=" + g + "  Amanda=" + h);
               }
           }
           r = Math.random();
@@ -89,7 +89,7 @@ public class MyClass {
               }
               else
               {
-                  System.out.println("A= "+ a + "  B= " + b + "  C= " + c + "  D= " + d + "  E =" + e + "  F= " + f + "  G= " + g + "  H =" + h);
+                  System.out.println("Charlotte= "+ a + "  Matt= " + b + "  Dylan= " + c + "  Ella= " + d + "  Nick=" + e + "  James=" + f + "   Keegan=" + g + "  Amanda=" + h);
               }
           }
           r = Math.random();
@@ -102,7 +102,7 @@ public class MyClass {
               }
               else
               {
-                  System.out.println("A= "+ a + "  B= " + b + "  C= " + c + "  D= " + d + "  E =" + e + "  F= " + f + "  G= " + g + "  H =" + h);
+                  System.out.println("Charlotte= "+ a + "  Matt= " + b + "  Dylan= " + c + "  Ella= " + d + "  Nick=" + e + "  James=" + f + "   Keegan=" + g + "  Amanda=" + h);
               }
           }
           r = Math.random();
@@ -115,7 +115,7 @@ public class MyClass {
               }
               else
               {
-                  System.out.println("A= "+ a + "  B= " + b + "  C= " + c + "  D= " + d + "  E =" + e + "  F= " + f + "  G= " + g + "  H =" + h);
+                  System.out.println("Charlotte= "+ a + "  Matt= " + b + "  Dylan= " + c + "  Ella= " + d + "  Nick=" + e + "  James=" + f + "   Keegan=" + g + "  Amanda=" + h);
               }
           }
           r = Math.random();
@@ -128,7 +128,7 @@ public class MyClass {
               }
               else
               {
-                  System.out.println("A= "+ a + "  B= " + b + "  C= " + c + "  D= " + d + "  E =" + e + "  F= " + f + "  G= " + g + "  H =" + h);
+                  System.out.println("Charlotte= "+ a + "  Matt= " + b + "  Dylan= " + c + "  Ella= " + d + "  Nick=" + e + "  James=" + f + "   Keegan=" + g + "  Amanda=" + h);
               }
           }
           r = Math.random();
@@ -141,7 +141,7 @@ public class MyClass {
               }
               else
               {
-                  System.out.println("A= "+ a + "  B= " + b + "  C= " + c + "  D= " + d + "  E =" + e + "  F= " + f + "  G= " + g + "  H =" + h);
+                  System.out.println("Charlotte= "+ a + "  Matt= " + b + "  Dylan= " + c + "  Ella= " + d + "  Nick=" + e + "  James=" + f + "   Keegan=" + g + "  Amanda=" + h);
               }
           }
           //Updates the adjusted scores based on the most recent results
@@ -172,3 +172,4 @@ public class MyClass {
         
     }
 }
+
